@@ -1,0 +1,47 @@
+inherited frmMain_LgXhdpiTb: TfrmMain_LgXhdpiTb
+  ClientHeight = 829
+  ClientWidth = 480
+  DesignerMasterStyle = 3
+  inherited Header: TToolBar
+    Size.Width = 480.000000000000000000
+    inherited HeaderLabel: TLabel
+      Size.Width = 480.000000000000000000
+    end
+  end
+  inherited pnlGraph: TPanel
+    Size.Width = 480.000000000000000000
+    Size.Height = 733.000000000000000000
+    inherited chrtTemp: TChart
+      Foot.Font.StyleExt = {00040000000200000004000000}
+      Legend.Title.Font.StyleExt = {00070000000000000004000000}
+      SubFoot.Font.StyleExt = {00040000000200000004000000}
+      Size.Width = 480.000000000000000000
+      Size.Height = 614.000000000000000000
+    end
+    inherited pnlFooter: TPanel
+      Position.Y = 614.000000000000000000
+      Size.Width = 480.000000000000000000
+      inherited pnlSensorValue: TPanel
+        Size.Width = 480.000000000000000000
+        inherited lblSensorReading: TLabel
+          Enabled = False
+        end
+      end
+      inherited pnlTrigger: TPanel
+        Size.Width = 480.000000000000000000
+        inherited tkTrigger: TTrackBar
+          Size.Width = 264.000000000000000000
+        end
+      end
+    end
+  end
+  inherited tbNavBar: TToolBar
+    Size.Width = 480.000000000000000000
+    inherited lblHeading: TLabel
+      Size.Width = 480.000000000000000000
+    end
+    inherited btnFront: TSpeedButton
+      Position.X = 442.000000000000000000
+    end
+  end
+end
